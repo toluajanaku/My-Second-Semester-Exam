@@ -5,22 +5,22 @@ import "./styles.css";
 const Home = () => {
   return (
     <div className="home">
-      <h1 className="welcome">Welcome</h1>
+      <h1 className="welcome">WELCOME</h1>
       <nav>
         <ul>
           <li>
             <Link className="toCounter" to="/counter">
-              COUNTER
+              Counter
             </Link>
           </li>
           <li>
             <Link className="toPage" to="/404">
-              ERROR PAGE
+              Error Page
             </Link>
           </li>
           <li>
             <Link className="toError" to="/test">
-              ERROR BOUNDARY
+              Error Boundary
             </Link>
           </li>
         </ul>
