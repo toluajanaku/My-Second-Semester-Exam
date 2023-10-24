@@ -1,16 +1,16 @@
 .welcome {
-  font-size: 40px;
-  padding-top: 35px;
+  font-size: 30px;
+  padding-top: 100px;
   margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .home {
-  background-color: rgba(33, 153, 97, 0.418);
+  background-color: rgba(239, 68, 98, 0.6);
   border-radius: 10px;
   margin-top: 100px;
-  height: 200px;
+  height: 400px;
 }
 .page-center {
   display: flex;
@@ -58,6 +58,7 @@ nav {
   text-decoration: none;
 }
 .counter {
+  background-color:#ffc0cb;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -67,7 +68,6 @@ nav {
   /* border: 1px solid #ccc; */
   border-radius: 10px;
   padding: 20px;
-  padding-left: 120px;
 }
 .toCounter:hover {
   color: rgba(35, 33, 172, 0.801);
@@ -118,7 +118,7 @@ h1 {
   margin: 10px;
   padding: 10px 20px;
   border: 4px solid #ccc;
-  border-radius: 20px;
+  border-radius: 10px;
   cursor: pointer;
   width: 130px;
 }
